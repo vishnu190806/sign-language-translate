@@ -46,17 +46,24 @@ Method: 3 parallel audit agents (demo path, training/eval, scripts/TTS/text) + f
 
 ## Independent clean-clone verification (2026-11-22)
 
-Fresh private-repo clone (HEAD `00cc2d7`), independent Python 3.12 `.venv`, `setup_runtime.ps1 -WithTTS`,
+Fresh private-repo clone (final HEAD `fd38c2d`), independent Python 3.12 `.venv`, `setup_runtime.ps1 -WithTTS`,
 verified MediaPipe SHA-256 hashes, bundled checkpoint load (264 classes / 65 tensors), model inference
 `(1, 264)`, MediaPipe HandLandmarker + PoseLandmarker initialization, and Kokoro synthesis
-(55,200 samples at 24 kHz) all PASS.
+(40,800 samples at 24 kHz) all PASS.
 
-`pytest tests/ -v` on that clean clone: **291 passed, 15 skipped, 0 failed** after making dataset-dependent
-tests skip explicitly when their excluded resources are absent. The skipped tests are:
+`pytest tests/ -v` on that clean clone: **289 passed, 17 skipped, 0 failed**. Dataset-dependent tests skip
+explicitly when their excluded resources are absent:
 
 - `tests/test_ctc_unfreeze.py` (3) — requires excluded `models/multihead/best.pt`.
-- `tests/test_dataset.py` (10) — requires excluded processed landmarks and `isl_label_map.json`.
+- `tests/test_dataset.py` (12) — requires excluded processed landmarks and `isl_label_map.json`.
 - `tests/test_openhands_bridge.py` (2) — requires optional `h5py` from `requirements-datasets.txt`.
 
-They still run in the author's full research environment; no test assertion was weakened. Live webcam
-acceptance is a separate, hardware-dependent check and is not covered by this result.
+They still run in the author's full research environment; no test assertion was weakened.
+
+An actual webcam run of `scripts/demo.py` (real camera, 480x640 capture, Kokoro playback started) exposed a
+crash: with no hands visible the attention mask is entirely empty, `AttentionPooling` softmaxed an
+all-`-inf` row, produced NaN logits and broke the HUD drawing code. Fixed by resetting fully-masked rows
+to zero before softmax (uniform, finite pooling); regression test added in
+`tests/test_attention_pooling.py`. Webcam capture, MediaPipe processing and inference were confirmed live;
+word emission from an actual ISL gesture and the resulting spoken sentence require a human signer and are
+not covered by an automated check.

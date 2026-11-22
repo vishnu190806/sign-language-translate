@@ -57,7 +57,11 @@ class AttentionPooling(nn.Module):
         q = self.query.expand(B, -1, -1)
         scores = torch.bmm(q, x.transpose(1, 2)) * self.scale
         if mask is not None:
-            scores = scores.masked_fill(~mask.unsqueeze(1), float("-inf"))
+            valid = mask.bool()
+            scores = scores.masked_fill(~valid.unsqueeze(1), float("-inf"))
+            fully_masked = ~valid.any(dim=1, keepdim=True)
+            if fully_masked.any():
+                scores = scores.masked_fill(fully_masked.unsqueeze(1), 0.0)
         weights = torch.softmax(scores, dim=-1)
         out = torch.bmm(weights, x)
         return out.squeeze(1)
