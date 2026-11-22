@@ -1,0 +1,17 @@
+{
+  "engine": "kokoro af_heart (KPipeline lang a)",
+  "cold_first_synthesis_s": 19.0,
+  "cold_note": "fresh process: weight load from disk + init + synth",
+  "warm_init_s": 5.8,
+  "warm_synth_s_short": 2.0,
+  "warm_synth_s_4s_audio": 4.9,
+  "sample_rate": 24000,
+  "system_espeak_ng": false,
+  "note": "bundled espeakng-loader sufficed; no system espeak-ng needed for these sentences",
+  "piper_warmed_s_short": 0.08,
+  "piper_sample": "results/piper_sample.wav",
+  "kokoro_sample": "results/kokoro_sample.wav",
+  "same_sentence": "Good morning. My name is Vishnu. Thank you very much for your help.",
+  "steady_state_synth_s": 0.13,
+  "steady_state_note": "after 2 full-length warmups; first-inference autotune dominates early timings"
+}

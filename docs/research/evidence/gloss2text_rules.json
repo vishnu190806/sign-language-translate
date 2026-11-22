@@ -1,0 +1,1091 @@
+{
+ "n": 94,
+ "exact_match": 0.23404255319148937,
+ "mean_f1": 0.8344608127931031,
+ "rows": [
+  {
+   "sentence": "are you free today",
+   "glosses": [
+    "YOU",
+    "FREE",
+    "TODAY"
+   ],
+   "hyp": "Today you free.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "are you hiding something",
+   "glosses": [
+    "YOU",
+    "HIDE",
+    "SOMETHING"
+   ],
+   "hyp": "You hide something.",
+   "exact": false,
+   "f1": 0.571
+  },
+  {
+   "sentence": "bring water for me",
+   "glosses": [
+    "BRING",
+    "WATER",
+    "ME"
+   ],
+   "hyp": "Bring water me.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "can i help you",
+   "glosses": [
+    "I",
+    "HELP",
+    "YOU"
+   ],
+   "hyp": "I help you.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "can you repeat that please",
+   "glosses": [
+    "YOU",
+    "REPEAT",
+    "PLEASE"
+   ],
+   "hyp": "You repeat please.",
+   "exact": false,
+   "f1": 0.75
+  },
+  {
+   "sentence": "comb your hair",
+   "glosses": [
+    "COMB",
+    "YOU",
+    "HAIR"
+   ],
+   "hyp": "Comb you hair.",
+   "exact": false,
+   "f1": 0.667
+  },
+  {
+   "sentence": "congratulations",
+   "glosses": [
+    "CONGRATULATIIONS"
+   ],
+   "hyp": "Congratulatiions.",
+   "exact": false,
+   "f1": 0.0
+  },
+  {
+   "sentence": "could you please talk slower",
+   "glosses": [
+    "YOU",
+    "PLEASE",
+    "TALK",
+    "SLOWER"
+   ],
+   "hyp": "You please talk slower.",
+   "exact": false,
+   "f1": 0.889
+  },
+  {
+   "sentence": "do me a favour",
+   "glosses": [
+    "DO",
+    "ME",
+    "FAVOUR"
+   ],
+   "hyp": "Do me favour.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "do not abuse him",
+   "glosses": [
+    "DONOT",
+    "ABUSE",
+    "HIM"
+   ],
+   "hyp": "Donot abuse him.",
+   "exact": false,
+   "f1": 0.571
+  },
+  {
+   "sentence": "do not be stubborn",
+   "glosses": [
+    "DONOT",
+    "BE",
+    "STUBBORN"
+   ],
+   "hyp": "Donot be stubborn.",
+   "exact": false,
+   "f1": 0.571
+  },
+  {
+   "sentence": "do not hurt me",
+   "glosses": [
+    "DONOT",
+    "HURT",
+    "ME"
+   ],
+   "hyp": "Donot hurt me.",
+   "exact": false,
+   "f1": 0.571
+  },
+  {
+   "sentence": "do not make me angry",
+   "glosses": [
+    "DO",
+    "NOT",
+    "MAKE",
+    "ME",
+    "ANGRY"
+   ],
+   "hyp": "Do not not make me angry.",
+   "exact": false,
+   "f1": 0.909
+  },
+  {
+   "sentence": "do not take it to the heart",
+   "glosses": [
+    "DO",
+    "NOT",
+    "TAKE",
+    "IT",
+    "HEART"
+   ],
+   "hyp": "Do not not take it heart.",
+   "exact": false,
+   "f1": 0.769
+  },
+  {
+   "sentence": "do not worry",
+   "glosses": [
+    "DO",
+    "NOT",
+    "WORRY"
+   ],
+   "hyp": "Do not not worry.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "do you need something",
+   "glosses": [
+    "DO",
+    "YOU",
+    "NEED",
+    "SOMETHING"
+   ],
+   "hyp": "Do you need something.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "go and sleep",
+   "glosses": [
+    "GO",
+    "SLEEP"
+   ],
+   "hyp": "Go sleep.",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "had your food",
+   "glosses": [
+    "YOUR",
+    "FOOD"
+   ],
+   "hyp": "Your food.",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "he came by train",
+   "glosses": [
+    "HE",
+    "CAME",
+    "TRAIN"
+   ],
+   "hyp": "He came train.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "He is going into the room",
+   "glosses": [
+    "HE",
+    "GO",
+    "INTO",
+    "ROOM"
+   ],
+   "hyp": "He go into room.",
+   "exact": false,
+   "f1": 0.6
+  },
+  {
+   "sentence": "he is on the way",
+   "glosses": [
+    "HE",
+    "ON",
+    "WAY"
+   ],
+   "hyp": "He on way.",
+   "exact": false,
+   "f1": 0.75
+  },
+  {
+   "sentence": "he would be coming today",
+   "glosses": [
+    "HE",
+    "COMING",
+    "TODAY"
+   ],
+   "hyp": "Today he coming.",
+   "exact": false,
+   "f1": 0.75
+  },
+  {
+   "sentence": "help me",
+   "glosses": [
+    "HELP",
+    "ME"
+   ],
+   "hyp": "Help me.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "hi how are you",
+   "glosses": [
+    "HI",
+    "HOW",
+    "YOU"
+   ],
+   "hyp": "Hi how you?",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "how are things",
+   "glosses": [
+    "HOW",
+    "THINGS"
+   ],
+   "hyp": "How things?",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "how can i help you",
+   "glosses": [
+    "HOW",
+    "I",
+    "HELP",
+    "YOU"
+   ],
+   "hyp": "How i help you?",
+   "exact": false,
+   "f1": 0.889
+  },
+  {
+   "sentence": "how can i trust you",
+   "glosses": [
+    "HOW",
+    "I",
+    "TRUST",
+    "YOU"
+   ],
+   "hyp": "How i trust you?",
+   "exact": false,
+   "f1": 0.889
+  },
+  {
+   "sentence": "how dare you",
+   "glosses": [
+    "HOW",
+    "DARE",
+    "YOU"
+   ],
+   "hyp": "How dare you?",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "how old are you",
+   "glosses": [
+    "HOW",
+    "OLD",
+    "YOU"
+   ],
+   "hyp": "How old you?",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "i am (age)",
+   "glosses": [
+    "I",
+    "(AGE)"
+   ],
+   "hyp": "I (age).",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "i am afraid of that",
+   "glosses": [
+    "I",
+    "AFRAID",
+    "THAT"
+   ],
+   "hyp": "I afraid that.",
+   "exact": false,
+   "f1": 0.75
+  },
+  {
+   "sentence": "i am crying",
+   "glosses": [
+    "I",
+    "CRY"
+   ],
+   "hyp": "I cry.",
+   "exact": false,
+   "f1": 0.4
+  },
+  {
+   "sentence": "i am feeling bored",
+   "glosses": [
+    "I",
+    "FEELING",
+    "BORED"
+   ],
+   "hyp": "I feeling bored.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "i am feeling cold",
+   "glosses": [
+    "I",
+    "FEELING",
+    "COLD"
+   ],
+   "hyp": "I feeling cold.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "i am fine. thank you sir",
+   "glosses": [
+    "I",
+    "FINE.",
+    "THANK",
+    "YOU",
+    "SIR"
+   ],
+   "hyp": "I fine. thank you sir.",
+   "exact": false,
+   "f1": 0.909
+  },
+  {
+   "sentence": "i am hungry",
+   "glosses": [
+    "I",
+    "HUNGRY"
+   ],
+   "hyp": "I hungry.",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "i am in dilemma what to do",
+   "glosses": [
+    "I",
+    "IN",
+    "DILEMMA",
+    "WHAT",
+    "TO",
+    "DO"
+   ],
+   "hyp": "I in dilemma what to do?",
+   "exact": false,
+   "f1": 0.923
+  },
+  {
+   "sentence": "i am not really sure",
+   "glosses": [
+    "I",
+    "NOT",
+    "REALLY",
+    "SURE"
+   ],
+   "hyp": "I do not not really sure.",
+   "exact": false,
+   "f1": 0.727
+  },
+  {
+   "sentence": "i am really grateful",
+   "glosses": [
+    "I",
+    "REALLY",
+    "GRATEFUL"
+   ],
+   "hyp": "I really grateful.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "i am sitting in the class",
+   "glosses": [
+    "I",
+    "SITTING",
+    "IN",
+    "THE",
+    "CLASS"
+   ],
+   "hyp": "I sitting in the class.",
+   "exact": false,
+   "f1": 0.909
+  },
+  {
+   "sentence": "i am so sorry to hear that",
+   "glosses": [
+    "I",
+    "AM",
+    "SO",
+    "SORRY",
+    "TO",
+    "HEAR",
+    "THAT"
+   ],
+   "hyp": "I am so sorry to hear that.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "i am suffering from fever",
+   "glosses": [
+    "I",
+    "SUFFERING",
+    "FROM",
+    "FEVER"
+   ],
+   "hyp": "I suffering from fever.",
+   "exact": false,
+   "f1": 0.889
+  },
+  {
+   "sentence": "i am tired",
+   "glosses": [
+    "I",
+    "TIRED"
+   ],
+   "hyp": "I is tired.",
+   "exact": false,
+   "f1": 0.667
+  },
+  {
+   "sentence": "i am very happy",
+   "glosses": [
+    "I",
+    "VERY",
+    "HAPPY"
+   ],
+   "hyp": "I very happy.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "i can not help you there",
+   "glosses": [
+    "I",
+    "NOT",
+    "HELP",
+    "YOU",
+    "THERE"
+   ],
+   "hyp": "I do not not help you there.",
+   "exact": false,
+   "f1": 0.769
+  },
+  {
+   "sentence": "i do not agree",
+   "glosses": [
+    "I",
+    "DONOT",
+    "AGREE"
+   ],
+   "hyp": "I donot agree.",
+   "exact": false,
+   "f1": 0.571
+  },
+  {
+   "sentence": "i do not like it",
+   "glosses": [
+    "I",
+    "DO",
+    "NOT",
+    "LIKE",
+    "IT"
+   ],
+   "hyp": "I do not do not like it.",
+   "exact": false,
+   "f1": 0.833
+  },
+  {
+   "sentence": "i do not mean it",
+   "glosses": [
+    "I",
+    "DO",
+    "NOT",
+    "MEAN",
+    "IT"
+   ],
+   "hyp": "I do not do not mean it.",
+   "exact": false,
+   "f1": 0.833
+  },
+  {
+   "sentence": "i enjoyed a lot",
+   "glosses": [
+    "I",
+    "ENJOYED",
+    "A",
+    "LOT"
+   ],
+   "hyp": "I enjoyed a lot.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "i got hurt",
+   "glosses": [
+    "I",
+    "GOT",
+    "HURT"
+   ],
+   "hyp": "I got hurt.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "i promise",
+   "glosses": [
+    "I",
+    "PROMISE"
+   ],
+   "hyp": "I promise.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "i really appreciate it",
+   "glosses": [
+    "I",
+    "REALLY",
+    "APPRECIATE",
+    "IT"
+   ],
+   "hyp": "I really appreciate it.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "i somehow got to know about it",
+   "glosses": [
+    "I",
+    "SOMEHOW",
+    "GOT",
+    "KNOW",
+    "ABOUT",
+    "IT"
+   ],
+   "hyp": "I somehow got know about it.",
+   "exact": false,
+   "f1": 0.923
+  },
+  {
+   "sentence": "it does not make any difference to me",
+   "glosses": [
+    "IT",
+    "DO",
+    "NOT",
+    "MAKE",
+    "ANY",
+    "DIFFERENCE",
+    "TO",
+    "ME"
+   ],
+   "hyp": "It not do not make any difference to me.",
+   "exact": false,
+   "f1": 0.824
+  },
+  {
+   "sentence": "it was nice chatting with you",
+   "glosses": [
+    "IT",
+    "NICE",
+    "CHAT",
+    "WITH",
+    "YOU"
+   ],
+   "hyp": "It nice chat with you.",
+   "exact": false,
+   "f1": 0.727
+  },
+  {
+   "sentence": "let him take time",
+   "glosses": [
+    "LET",
+    "HIM",
+    "TAKE",
+    "TIME"
+   ],
+   "hyp": "Let him take time.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "my name is xxxxxxxx",
+   "glosses": [
+    "MY",
+    "NAME",
+    "XXXXXXXX"
+   ],
+   "hyp": "My name xxxxxxxx.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "nice to meet you",
+   "glosses": [
+    "NICE",
+    "MEET",
+    "YOU"
+   ],
+   "hyp": "Nice meet you.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "now onwards he will never hurt you",
+   "glosses": [
+    "NOW",
+    "ONWARDS",
+    "HE",
+    "NEVER",
+    "HURT",
+    "YOU"
+   ],
+   "hyp": "Now onwards not he never hurt you.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "pour some more water into the glass",
+   "glosses": [
+    "POUR",
+    "SOME",
+    "MORE",
+    "WATER",
+    "INTO",
+    "THE",
+    "GLASS"
+   ],
+   "hyp": "Pour some more water into the glass.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "prepare the bed",
+   "glosses": [
+    "PREPARE",
+    "BED"
+   ],
+   "hyp": "Prepare bed.",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "serve the food",
+   "glosses": [
+    "SERVE",
+    "FOOD"
+   ],
+   "hyp": "Serve food.",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "shall we go outside",
+   "glosses": [
+    "WE",
+    "GO",
+    "OUTSIDE"
+   ],
+   "hyp": "We go outside.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "speak softly",
+   "glosses": [
+    "SPEAK",
+    "SOFTLY"
+   ],
+   "hyp": "Speak softly.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "take care of yourself",
+   "glosses": [
+    "TAKE",
+    "CARE",
+    "OF",
+    "YOURSELF"
+   ],
+   "hyp": "Take care of yourself.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "tell me truth",
+   "glosses": [
+    "TELL",
+    "ME",
+    "TRUTH"
+   ],
+   "hyp": "Tell me truth.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "thank you so much",
+   "glosses": [
+    "THANK",
+    "YOU",
+    "SO",
+    "MUCH"
+   ],
+   "hyp": "Thank you so much.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "that is so kind of you",
+   "glosses": [
+    "THAT",
+    "KIND",
+    "YOU"
+   ],
+   "hyp": "That kind you.",
+   "exact": false,
+   "f1": 0.667
+  },
+  {
+   "sentence": "This place is beautiful",
+   "glosses": [
+    "THIS",
+    "PLACE",
+    "BEAUTIFUL"
+   ],
+   "hyp": "This place beautiful.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "try to understand",
+   "glosses": [
+    "TRY",
+    "TO",
+    "UNDERSTAND"
+   ],
+   "hyp": "Try to understand.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "turn on light turn off light",
+   "glosses": [
+    "TURN",
+    "ON",
+    "LIGHT",
+    "TURN",
+    "OFF",
+    "LIGHT"
+   ],
+   "hyp": "Turn on light turn off light.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "we are all with you",
+   "glosses": [
+    "WE",
+    "ALL",
+    "WITH",
+    "YOU"
+   ],
+   "hyp": "We all with you.",
+   "exact": false,
+   "f1": 0.889
+  },
+  {
+   "sentence": "wear the shirt",
+   "glosses": [
+    "WEAR",
+    "SHIRT"
+   ],
+   "hyp": "Wear shirt.",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "what are you doing",
+   "glosses": [
+    "WHAT",
+    "YOU",
+    "DO"
+   ],
+   "hyp": "What you do?",
+   "exact": false,
+   "f1": 0.571
+  },
+  {
+   "sentence": "what did you tell him",
+   "glosses": [
+    "WHAT",
+    "YOU",
+    "TELL",
+    "HIM"
+   ],
+   "hyp": "What you tell him?",
+   "exact": false,
+   "f1": 0.889
+  },
+  {
+   "sentence": "what do you do",
+   "glosses": [
+    "WHAT",
+    "YOU",
+    "DO"
+   ],
+   "hyp": "What you do?",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "what do you think",
+   "glosses": [
+    "WHAT",
+    "DO",
+    "YOU",
+    "THINK"
+   ],
+   "hyp": "What do you think?",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "what do you want to become",
+   "glosses": [
+    "WHAT",
+    "DO",
+    "YOU",
+    "WANT",
+    "BECOME"
+   ],
+   "hyp": "What do you want become?",
+   "exact": false,
+   "f1": 0.909
+  },
+  {
+   "sentence": "what happened",
+   "glosses": [
+    "WHAT",
+    "HAPPENED"
+   ],
+   "hyp": "What happened?",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "what have you planned for your career",
+   "glosses": [
+    "WHAT",
+    "HAVE",
+    "YOU",
+    "PLAN",
+    "YOUR",
+    "CAREER"
+   ],
+   "hyp": "What have you plan your career?",
+   "exact": false,
+   "f1": 0.769
+  },
+  {
+   "sentence": "what is your phone number",
+   "glosses": [
+    "WHAT",
+    "YOUR",
+    "PHONE",
+    "NUMBER"
+   ],
+   "hyp": "What your phone number?",
+   "exact": false,
+   "f1": 0.889
+  },
+  {
+   "sentence": "what you want",
+   "glosses": [
+    "WHAT",
+    "YOU",
+    "WANT"
+   ],
+   "hyp": "What you want?",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "when will the train leave",
+   "glosses": [
+    "WHEN",
+    "TRAIN",
+    "LEAVE"
+   ],
+   "hyp": "When train leave?",
+   "exact": false,
+   "f1": 0.75
+  },
+  {
+   "sentence": "where are you from",
+   "glosses": [
+    "WHERE",
+    "YOU",
+    "FROM"
+   ],
+   "hyp": "Where you from?",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "who are you",
+   "glosses": [
+    "WHO",
+    "YOU"
+   ],
+   "hyp": "Who you?",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "why are you angry",
+   "glosses": [
+    "WHY",
+    "YOU",
+    "ANGRY"
+   ],
+   "hyp": "Why you angry?",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "why are you crying",
+   "glosses": [
+    "WHY",
+    "YOU",
+    "CRY"
+   ],
+   "hyp": "Why you cry?",
+   "exact": false,
+   "f1": 0.571
+  },
+  {
+   "sentence": "why are you disappointed",
+   "glosses": [
+    "WHY",
+    "YOU",
+    "DISAPPOINTED"
+   ],
+   "hyp": "Why you disappointed?",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "you are bad",
+   "glosses": [
+    "YOU",
+    "BAD"
+   ],
+   "hyp": "You are bad.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "you are good",
+   "glosses": [
+    "YOU",
+    "GOOD"
+   ],
+   "hyp": "You are good.",
+   "exact": true,
+   "f1": 1.0
+  },
+  {
+   "sentence": "you are welcome",
+   "glosses": [
+    "YOU",
+    "WELCOME"
+   ],
+   "hyp": "You welcome.",
+   "exact": false,
+   "f1": 0.8
+  },
+  {
+   "sentence": "you can do it",
+   "glosses": [
+    "YOU",
+    "DO",
+    "IT"
+   ],
+   "hyp": "You do it.",
+   "exact": false,
+   "f1": 0.857
+  },
+  {
+   "sentence": "you do anything, i do not care",
+   "glosses": [
+    "YOU",
+    "DO",
+    "ANYTHING,",
+    "I",
+    "DO",
+    "NOT",
+    "CARE"
+   ],
+   "hyp": "You do not do anything, i do not care.",
+   "exact": false,
+   "f1": 0.875
+  },
+  {
+   "sentence": "you need a medicine, take this one",
+   "glosses": [
+    "YOU",
+    "NEED",
+    "A",
+    "MEDICINE,",
+    "TAKE",
+    "THIS",
+    "ONE"
+   ],
+   "hyp": "You need a medicine, take this one.",
+   "exact": true,
+   "f1": 1.0
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+  "checkpoint": "C:\\Users\\Vishnu\\Documents\\College\\Projects\\New folder\\sign-language-translate\\models\\baseline.pt",
+  "split": "test",
+  "num_classes": 264,
+  "total_samples": 478,
+  "top1_accuracy": 81.8,
+  "top5_accuracy": 95.4,
+  "macro_accuracy": 83.33,
+  "total_params": 2026056,
+  "trainable_params": 2026056,
+  "device": "cuda",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.12.10",
+  "torch_version": "2.14.0+cu126"
+}

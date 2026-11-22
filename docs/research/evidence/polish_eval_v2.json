@@ -1,0 +1,11 @@
+{
+ "n": 94,
+ "exact": 0.43617021276595747,
+ "mean_f1": 0.8470329020860936,
+ "uses": {
+  "rules-fallback": 18,
+  "llm": 76
+ },
+ "seconds_total": 134.2,
+ "seconds_per_sentence": 1.43
+}

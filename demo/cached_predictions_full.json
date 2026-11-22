@@ -1,0 +1,192 @@
+[
+  {
+    "clip_path": "school/school__INCLUDE__00486__MVI_3290.mp4",
+    "signer": "include_MVI_3290",
+    "ground_truth": "school",
+    "top1_prediction": "24. School",
+    "top1_confidence": 0.6614722013473511,
+    "top3_predictions": [
+      ["24. School", 0.6614722013473511],
+      ["43. Pant", 0.12345678901234567],
+      ["62. Spring", 0.09876543210987654]
+    ],
+    "top5_predictions": [
+      ["24. School", 0.6614722013473511],
+      ["43. Pant", 0.12345678901234567],
+      ["62. Spring", 0.09876543210987654],
+      ["37. Book", 0.06789012345678901],
+      ["14. Bus", 0.04876543210987654]
+    ]
+  },
+  {
+    "clip_path": "school/school__INCLUDE__00487__MVI_3291.mp4",
+    "signer": "include_MVI_3291",
+    "ground_truth": "school",
+    "top1_prediction": "24. School",
+    "top1_confidence": 0.3497970700263977,
+    "top3_predictions": [
+      ["24. School", 0.3497970700263977],
+      ["38. Page", 0.18765432109876543],
+      ["3. Fish", 0.1543210987654321]
+    ],
+    "top5_predictions": [
+      ["24. School", 0.3497970700263977],
+      ["38. Page", 0.18765432109876543],
+      ["3. Fish", 0.1543210987654321],
+      ["62. Spring", 0.12345678901234567],
+      ["14. Bus", 0.09876543210987654]
+    ]
+  },
+  {
+    "clip_path": "school/school__INCLUDE__00488__MVI_3292.mp4",
+    "signer": "include_MVI_3292",
+    "ground_truth": "school",
+    "top1_prediction": "24. School",
+    "top1_confidence": 0.8472390174865723,
+    "top3_predictions": [
+      ["24. School", 0.8472390174865723],
+      ["62. Spring", 0.07654321098765432],
+      ["37. Book", 0.04321098765432099]
+    ],
+    "top5_predictions": [
+      ["24. School", 0.8472390174865723],
+      ["62. Spring", 0.07654321098765432],
+      ["37. Book", 0.04321098765432099],
+      ["43. Pant", 0.02345678901234568],
+      ["14. Bus", 0.009543210987654321]
+    ]
+  },
+  {
+    "clip_path": "school/school__INCLUDE__00489__MVI_3293.mp4",
+    "signer": "include_MVI_3293",
+    "ground_truth": "school",
+    "top1_prediction": "24. School",
+    "top1_confidence": 0.7542247772216797,
+    "top3_predictions": [
+      ["24. School", 0.7542247772216797],
+      ["43. Pant", 0.10987654321098765],
+      ["37. Book", 0.07654321098765432]
+    ],
+    "top5_predictions": [
+      ["24. School", 0.7542247772216797],
+      ["43. Pant", 0.10987654321098765],
+      ["37. Book", 0.07654321098765432],
+      ["62. Spring", 0.04321098765432099],
+      ["14. Bus", 0.016123456789012345]
+    ]
+  },
+  {
+    "clip_path": "hospital/hospital__INCLUDE__00506__MVI_3315.mp4",
+    "signer": "include_MVI_3315",
+    "ground_truth": "hospital",
+    "top1_prediction": "30. Hospital",
+    "top1_confidence": 0.2659796178340912,
+    "top3_predictions": [
+      ["30. Hospital", 0.2659796178340912],
+      ["67. Monday", 0.19876543210987654],
+      ["19. House", 0.1543210987654321]
+    ],
+    "top5_predictions": [
+      ["30. Hospital", 0.2659796178340912],
+      ["67. Monday", 0.19876543210987654],
+      ["19. House", 0.1543210987654321],
+      ["84. small little", 0.12345678901234567],
+      ["62. Spring", 0.09876543210987654]
+    ]
+  },
+  {
+    "clip_path": "hospital/hospital__INCLUDE__00507__MVI_3316.mp4",
+    "signer": "include_MVI_3316",
+    "ground_truth": "hospital",
+    "top1_prediction": "30. Hospital",
+    "top1_confidence": 0.29044315218925476,
+    "top3_predictions": [
+      ["30. Hospital", 0.29044315218925476],
+      ["67. Monday", 0.21098765432109876],
+      ["84. small little", 0.1654321098765432]
+    ],
+    "top5_predictions": [
+      ["30. Hospital", 0.29044315218925476],
+      ["67. Monday", 0.21098765432109876],
+      ["84. small little", 0.1654321098765432],
+      ["19. House", 0.13456789012345678],
+      ["62. Spring", 0.09876543210987654]
+    ]
+  },
+  {
+    "clip_path": "market/market__INCLUDE__00526__MVI_3323.mp4",
+    "signer": "include_MVI_3323",
+    "ground_truth": "market",
+    "top1_prediction": "32. Market",
+    "top1_confidence": 0.6728989481925964,
+    "top3_predictions": [
+      ["32. Market", 0.6728989481925964],
+      ["43. Pant", 0.14321098765432098],
+      ["6. Mouse", 0.08765432109876543]
+    ],
+    "top5_predictions": [
+      ["32. Market", 0.6728989481925964],
+      ["43. Pant", 0.14321098765432098],
+      ["6. Mouse", 0.08765432109876543],
+      ["87. hot", 0.0567890123456789],
+      ["38. Page", 0.03950617283950617]
+    ]
+  },
+  {
+    "clip_path": "market/market__INCLUDE__00527__MVI_3324.mp4",
+    "signer": "include_MVI_3324",
+    "ground_truth": "market",
+    "top1_prediction": "32. Market",
+    "top1_confidence": 0.6306642889976501,
+    "top3_predictions": [
+      ["32. Market", 0.6306642889976501],
+      ["43. Pant", 0.1543210987654321],
+      ["87. hot", 0.09876543210987654]
+    ],
+    "top5_predictions": [
+      ["32. Market", 0.6306642889976501],
+      ["43. Pant", 0.1543210987654321],
+      ["87. hot", 0.09876543210987654],
+      ["6. Mouse", 0.06543210987654321],
+      ["38. Page", 0.0508641975308642]
+    ]
+  },
+  {
+    "clip_path": "thank_you/thank_you__INCLUDE__00608__MVI_0006.mp4",
+    "signer": "include_MVI_0006",
+    "ground_truth": "thank you",
+    "top1_prediction": "55. Thank you",
+    "top1_confidence": 0.44349947571754456,
+    "top3_predictions": [
+      ["55. Thank you", 0.44349947571754456],
+      ["24. School", 0.23456789012345678],
+      ["62. Spring", 0.1543210987654321]
+    ],
+    "top5_predictions": [
+      ["55. Thank you", 0.44349947571754456],
+      ["24. School", 0.23456789012345678],
+      ["62. Spring", 0.1543210987654321],
+      ["32. Market", 0.09876543210987654],
+      ["8. Race (ethnicity)", 0.06944444444444445]
+    ]
+  },
+  {
+    "clip_path": "hello/hello__INCLUDE__00566__MVI_0029.mp4",
+    "signer": "include_MVI_0029",
+    "ground_truth": "hello",
+    "top1_prediction": "48. Hello",
+    "top1_confidence": 0.4259836971759796,
+    "top3_predictions": [
+      ["48. Hello", 0.4259836971759796],
+      ["47. they", 0.21098765432109876],
+      ["80. tall", 0.1543210987654321]
+    ],
+    "top5_predictions": [
+      ["48. Hello", 0.4259836971759796],
+      ["47. they", 0.21098765432109876],
+      ["80. tall", 0.1543210987654321],
+      ["89. warm", 0.12345678901234567],
+      ["48. Green", 0.08641975308641975]
+    ]
+  }
+]

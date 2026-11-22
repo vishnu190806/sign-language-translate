@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "model_path": "models/baseline.pt",
+    "dataset_dir": "data\\processed\\landmarks\\isl",
+    "split": "test",
+    "num_classes": 264,
+    "total_samples": 478,
+    "device": "cuda",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.10",
+    "torch_version": "2.14.0+cu126",
+    "total_elapsed_seconds": 8.6,
+    "tta_passes": 5
+  },
+  "conditions_run": [
+    "baseline",
+    "+adapters"
+  ],
+  "results": {
+    "baseline": {
+      "top1": 81.8,
+      "top3": 93.51,
+      "top5": 95.4,
+      "total_samples": 478,
+      "elapsed_seconds": 3.7
+    },
+    "+adapters": {
+      "top1": 80.96,
+      "top3": 93.51,
+      "top5": 96.23,
+      "total_samples": 478,
+      "elapsed_seconds": 4.9
+    }
+  },
+  "improvements_over_baseline": {
+    "+adapters": -0.84
+  },
+  "table": "Condition               Top-1    Top-3    Top-5  Samples\n--------------------------------------------------------\nbaseline               81.80%   93.51%   95.40%      478\n+adapters              80.96%   93.51%   96.23%      478 (-0.8)"
+}

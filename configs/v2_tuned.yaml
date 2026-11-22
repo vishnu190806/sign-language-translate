@@ -1,0 +1,35 @@
+train:
+  batch_size: 256
+  epochs: 200
+  learning_rate: 0.0005
+  weight_decay: 0.01
+  label_smoothing: 0.1
+  early_stopping_patience: 10
+
+dataset:
+  num_workers: 6
+  prefetch_factor: 2
+  persistent_workers: true
+
+augmentation:
+  mode: full
+  probs:
+    temporal_jitter: 0.0
+    temporal_crop: 0.0
+    temporal_dropout: 0.0
+    gaussian_noise: 0.5
+    random_hand_dropout: 0.0
+    spatial_scale: 0.3
+    random_translation: 0.3
+    frame_permutation: 0.0
+    speed_variation: 0.3
+    random_frame_drop: 0.0
+    spatial_rotation: 0.0
+    frame_fusion: 0.0
+    random_keypoint_removal: 0.3
+    camera_depth_variation: 0.0
+    hv_shift: 0.0
+    hand_size_variation: 0.0
+    viewpoint_rotation: 0.0
+    finger_articulation: 0.0
+    elbow_displacement: 0.0

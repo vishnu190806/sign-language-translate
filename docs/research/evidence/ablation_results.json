@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "model_path": "C:\\Users\\Vishnu\\Documents\\College\\Projects\\New folder\\sign-language-translate\\models\\baseline.pt",
+    "dataset_dir": "C:\\Users\\Vishnu\\Documents\\College\\Projects\\New folder\\sign-language-translate\\data\\processed\\landmarks\\isl",
+    "split": "test",
+    "num_classes": 264,
+    "total_samples": 478,
+    "device": "cuda",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.12.10",
+    "torch_version": "2.14.0+cu126",
+    "total_elapsed_seconds": 20.9,
+    "tta_passes": 5
+  },
+  "conditions_run": [
+    "baseline",
+    "+augmentation",
+    "+adapters",
+    "+distillation",
+    "+all"
+  ],
+  "results": {
+    "baseline": {
+      "top1": 81.8,
+      "top3": 93.51,
+      "top5": 95.4,
+      "total_samples": 478,
+      "elapsed_seconds": 3.9
+    },
+    "+augmentation": {
+      "top1": 75.73,
+      "top3": 92.26,
+      "top5": 95.61,
+      "total_samples": 478,
+      "elapsed_seconds": 3.9
+    },
+    "+adapters": {
+      "top1": 81.8,
+      "top3": 93.51,
+      "top5": 96.03,
+      "total_samples": 478,
+      "elapsed_seconds": 4.0
+    },
+    "+distillation": {
+      "top1": 74.69,
+      "top3": 92.47,
+      "top5": 95.61,
+      "total_samples": 478,
+      "elapsed_seconds": 3.9
+    },
+    "+all": {
+      "top1": 77.2,
+      "top3": 92.68,
+      "top5": 95.19,
+      "total_samples": 478,
+      "elapsed_seconds": 5.1
+    }
+  },
+  "improvements_over_baseline": {
+    "+augmentation": -6.07,
+    "+adapters": 0.0,
+    "+distillation": -7.11,
+    "+all": -4.6
+  },
+  "table": "Condition               Top-1    Top-3    Top-5  Samples\n--------------------------------------------------------\nbaseline               81.80%   93.51%   95.40%      478\n+augmentation          75.73%   92.26%   95.61%      478 (-6.1)\n+adapters              81.80%   93.51%   96.03%      478 (+0.0)\n+distillation          74.69%   92.47%   95.61%      478 (-7.1)\n+all                   77.20%   92.68%   95.19%      478 (-4.6)"
+}

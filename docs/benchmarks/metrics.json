@@ -1,0 +1,20 @@
+{
+  "fps": 156.96,
+  "latency_ms_p50": 6.37,
+  "latency_ms_p95": 6.82,
+  "ram_mb": 1186.34,
+  "device": "cuda",
+  "timestamp": "2026-09-18T05:30:06.091728+00:00",
+  "commit_hash": "fee5dde4",
+  "model_params": 2026056,
+  "batch_size": 1,
+  "sequence_length": 32,
+  "input_dim": 168,
+  "warmup_iterations": 10,
+  "timed_iterations": 100,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python_version": "3.12.10",
+  "torch_version": "2.11.0+cu128",
+  "gpu_name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "cuda_version": "12.8"
+}

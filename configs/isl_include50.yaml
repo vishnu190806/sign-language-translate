@@ -1,0 +1,20 @@
+dataset:
+  name: isl
+  root: data/raw/isl
+  processed: data/processed/landmarks/isl
+  subset: include50
+
+model:
+  num_classes: 50
+  embedding_dim: 256
+  htma_blocks: 2
+  num_heads: 8
+  dropout: 0.2
+
+train:
+  batch_size: 64
+  epochs: 200
+  learning_rate: 0.0005
+  weight_decay: 0.01
+  label_smoothing: 0.1
+  early_stopping_patience: 20

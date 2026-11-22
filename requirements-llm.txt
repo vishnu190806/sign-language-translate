@@ -1,0 +1,5 @@
+# Optional dependencies for LLM sentence polish (Qwen fallback)
+# Used by: src/text/polish.py (TransformersPolishEngine, LlamaCppPolishEngine)
+# Optional at runtime: falls back to RulesOnlyEngine if these are absent.
+transformers>=4.40
+llama-cpp-python>=0.2.0

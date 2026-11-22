@@ -1,0 +1,5 @@
+{
+ "include": "models/multihead_v2/label_map.json",
+ "isl500": "models/multihead_v2/label_map.json",
+ "extra": "models/multihead_extra/label_map_extra.json"
+}

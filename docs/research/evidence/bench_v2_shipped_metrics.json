@@ -1,0 +1,5 @@
+{
+ "model": "multihead_v2",
+ "batch1_seq32_unified3head_ms": 14.7,
+ "note": "demo does 3 head forwards per inference step"
+}

@@ -1,0 +1,136 @@
+{
+  "source_artifact": "results\\real_world_accuracy.json",
+  "overall_clips": 642,
+  "overall_top1": 0.22585669781931464,
+  "iv_clips": 387,
+  "iv_top1": 0.37467700258397935,
+  "iv_top3": 0.46511627906976744,
+  "iv_top5": 0.524547803617571,
+  "iv_correct_top1": 145,
+  "iv_correct_top3": 180,
+  "iv_correct_top5": 203,
+  "oov_clips": 255,
+  "oov_top1": 0.0,
+  "by_source_overall": {
+    "CISLR": {
+      "total": 81,
+      "top1": 4,
+      "top3": 5,
+      "top5": 8,
+      "emitted": 2,
+      "no_emission": 46
+    },
+    "ISL500": {
+      "total": 405,
+      "top1": 18,
+      "top3": 40,
+      "top5": 55,
+      "emitted": 15,
+      "no_emission": 70
+    },
+    "INCLUDE": {
+      "total": 143,
+      "top1": 123,
+      "top3": 135,
+      "top5": 140,
+      "emitted": 108,
+      "no_emission": 26
+    },
+    "ISLRTC_dictionary": {
+      "total": 13,
+      "top1": 0,
+      "top3": 0,
+      "top5": 0,
+      "emitted": 0,
+      "no_emission": 5
+    }
+  },
+  "per_word_iv": {
+    "thank you": {
+      "correct": 17,
+      "total": 39,
+      "iv": true
+    },
+    "teacher": {
+      "correct": 3,
+      "total": 17,
+      "iv": true
+    },
+    "mother": {
+      "correct": 0,
+      "total": 18,
+      "iv": true
+    },
+    "today": {
+      "correct": 10,
+      "total": 17,
+      "iv": true
+    },
+    "she": {
+      "correct": 2,
+      "total": 17,
+      "iv": true
+    },
+    "okay": {
+      "correct": 20,
+      "total": 23,
+      "iv": true
+    },
+    "friend": {
+      "correct": 19,
+      "total": 38,
+      "iv": true
+    },
+    "father": {
+      "correct": 0,
+      "total": 16,
+      "iv": true
+    },
+    "school": {
+      "correct": 20,
+      "total": 37,
+      "iv": true
+    },
+    "you": {
+      "correct": 3,
+      "total": 18,
+      "iv": true
+    },
+    "he": {
+      "correct": 0,
+      "total": 17,
+      "iv": true
+    },
+    "sister": {
+      "correct": 0,
+      "total": 17,
+      "iv": true
+    },
+    "brother": {
+      "correct": 0,
+      "total": 3,
+      "iv": true
+    },
+    "student": {
+      "correct": 0,
+      "total": 17,
+      "iv": true
+    },
+    "hospital": {
+      "correct": 20,
+      "total": 21,
+      "iv": true
+    },
+    "market": {
+      "correct": 14,
+      "total": 36,
+      "iv": true
+    },
+    "hello": {
+      "correct": 17,
+      "total": 36,
+      "iv": true
+    }
+  },
+  "note": "OOV is 0% by definition (model cannot predict unseen classes). Report IV-only going forward. Per-source IV split unavailable in source artifact; by_source above is overall per source."
+}

@@ -1,0 +1,11 @@
+adapter:
+  adapter_dim: 64
+  bottleneck_dim: 32
+  learning_rate: 0.001
+  epochs: 30
+  freeze_base: true
+  weight_decay: 0.01
+  warmup_epochs: 3
+  label_smoothing: 0.1
+  use_amp: true
+  seed: 42

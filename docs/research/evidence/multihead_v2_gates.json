@@ -1,0 +1,11 @@
+{
+ "custom_top1": 82.22,
+ "custom_top5": 95.82,
+ "custom_n": 478,
+ "official_top1": 84.42,
+ "official_top5": 86.71,
+ "official_n": 1008,
+ "gate_custom_ge_81_8": true,
+ "gate_official_ge_85_22": false,
+ "ship": false
+}

@@ -1,0 +1,22 @@
+augmentation:
+  mode: full
+  probs:
+    temporal_jitter: 0.5
+    temporal_crop: 0.3
+    temporal_dropout: 0.3
+    gaussian_noise: 0.5
+    random_hand_dropout: 0.3
+    spatial_scale: 0.3
+    random_translation: 0.3
+    frame_permutation: 0.2
+    speed_variation: 0.2
+    random_frame_drop: 0.3
+    spatial_rotation: 0.2
+    frame_fusion: 0.2
+    random_keypoint_removal: 0.2
+    camera_depth_variation: 0.3
+    hv_shift: 0.3
+    hand_size_variation: 0.3
+    viewpoint_rotation: 0.3
+    finger_articulation: 0.3
+    elbow_displacement: 0.3

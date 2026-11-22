@@ -1,0 +1,63 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+data/
+models/qwen15b/
+models/**/*.pt
+models/**/*.pth
+models/**/*.safetensors
+models/**/*.onnx
+models/**/*.ckpt
+models/**/*.bin
+
+# Approved release checkpoint: exactly one INCLUDE-only (CC BY 4.0) model is
+# bundled so a fresh clone is runnable. All other weights stay ignored.
+# See docs/MODEL_AND_DATA_AVAILABILITY.md and ATTRIBUTION.md.
+!models/baseline.pt
+
+# Local-only historical experiment artifacts retained on the author's machine.
+models/confusion/
+models/ctc/
+models/ctc_seed3_vocab.json
+models/dpc/
+models/dpc_finetune/
+models/dpc_smoke*/
+models/joint/
+models/joint_v2/
+models/multihead/
+models/multihead_extra/extra_overlap.json
+models/v2/
+
+# results/ is excluded; a curated copy lives in docs/research/ (tracked).
+results/
+isl_40_test/
+.pytest_cache/
+logs/
+
+# Third-party model binaries — redistribution rights not established from source.
+# Download at setup (see README / docs/MODEL_AND_DATA_AVAILABILITY.md).
+*.task
+*.onnx
+assets/voices/
+
+# Demo resources not required by a published workflow, or duplicated/generated.
+demo/piper_voice/
+demo/inputs/
+demo/landmarks/
+demo/cached_predictions_demo.json
+
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+verify_setup.py

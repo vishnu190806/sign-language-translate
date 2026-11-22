@@ -1,0 +1,5 @@
+# Optional: speech output. The default TTS engine in configs/default.yaml is Kokoro.
+# Kokoro downloads its Apache-2.0 weights from HuggingFace on first use.
+# Without this file, the app still runs and falls back to text-only (use --no-tts).
+# soundfile is already pinned in requirements.txt.
+kokoro>=0.9.2

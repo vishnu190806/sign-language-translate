@@ -1,0 +1,27 @@
+model:
+  num_classes: 263
+  fusion_method: early
+  use_separate_encoders: false
+
+paths:
+  checkpoints: models/joint
+
+train:
+  batch_size: 256
+  epochs: 200
+  learning_rate: 0.0005
+  weight_decay: 0.01
+  label_smoothing: 0.1
+  early_stopping_patience: 15
+  use_amp: true
+  seed: 42
+  balanced_sampler: true
+
+dataset:
+  num_workers: 6
+  prefetch_factor: 2
+  persistent_workers: true
+
+augmentation:
+  mode: basic
+  probs:

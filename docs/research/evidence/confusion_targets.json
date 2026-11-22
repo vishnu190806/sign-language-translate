@@ -1,0 +1,183 @@
+{
+  "targets": [
+    {
+      "class": "21. Sign",
+      "idx": 39,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "23. Court",
+      "idx": 45,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "23. God",
+      "idx": 46,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "25. Chair",
+      "idx": 51,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "25. Office",
+      "idx": 52,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "28. Store or Shop",
+      "idx": 60,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "33. Pencil",
+      "idx": 79,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "35. Photograph",
+      "idx": 85,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "36. Soap",
+      "idx": 88,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "41. you",
+      "idx": 105,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "46. Clothing",
+      "idx": 119,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "47. Gift",
+      "idx": 121,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "49. Blue",
+      "idx": 127,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 5.0
+    },
+    {
+      "class": "51. Clock",
+      "idx": 137,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "6. Mouse",
+      "idx": 161,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 3.0
+    },
+    {
+      "class": "63. Winter",
+      "idx": 170,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 5.0
+    },
+    {
+      "class": "70. Thursday",
+      "idx": 187,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 3.0
+    },
+    {
+      "class": "72. Saturday",
+      "idx": 190,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "74. Tomorrow",
+      "idx": 195,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "79. Child",
+      "idx": 205,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "8. Race (ethnicity)",
+      "idx": 210,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "80. Minute",
+      "idx": 212,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "84. small little",
+      "idx": 225,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "87. Doctor",
+      "idx": 232,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 2.0
+    },
+    {
+      "class": "88. cold",
+      "idx": 235,
+      "recall": 0.0,
+      "support": 2,
+      "conf_mass": 5.0
+    }
+  ],
+  "repeat": 2,
+  "excluded": [
+    "Extra (label-map collision artifact)"
+  ]
+}

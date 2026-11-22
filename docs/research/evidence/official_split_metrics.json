@@ -1,0 +1,11 @@
+{
+  "checkpoint": "models/baseline.pt",
+  "official_split": "test",
+  "n_official_rows": 1009,
+  "n_matched": 974,
+  "n_missing_npz": 0,
+  "n_ambiguous_dupes": 35,
+  "n_label_oov": 0,
+  "top1": 85.22,
+  "top5": 87.99
+}

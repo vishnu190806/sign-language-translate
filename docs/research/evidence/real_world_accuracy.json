@@ -1,0 +1,308 @@
+{
+  "vocabulary": {
+    "model_labels": 263,
+    "test_words": 40,
+    "in_vocabulary_words": [
+      "brother",
+      "father",
+      "friend",
+      "he",
+      "hello",
+      "hospital",
+      "market",
+      "mother",
+      "okay",
+      "school",
+      "she",
+      "sister",
+      "student",
+      "teacher",
+      "thank you",
+      "today",
+      "you"
+    ],
+    "out_of_vocabulary_words": [
+      "come",
+      "drink",
+      "eat",
+      "food",
+      "go",
+      "goodbye",
+      "help",
+      "home",
+      "me",
+      "no",
+      "please",
+      "read",
+      "sit",
+      "sorry",
+      "stand",
+      "stop",
+      "tea",
+      "water",
+      "what",
+      "when",
+      "where",
+      "write",
+      "yes"
+    ],
+    "in_vocabulary_clips": 387,
+    "out_of_vocabulary_clips": 255
+  },
+  "by_source": {
+    "CISLR": {
+      "total": 81,
+      "top1": 4,
+      "top3": 5,
+      "top5": 8,
+      "emitted": 2,
+      "no_emission": 46
+    },
+    "ISL500": {
+      "total": 405,
+      "top1": 18,
+      "top3": 40,
+      "top5": 55,
+      "emitted": 15,
+      "no_emission": 70
+    },
+    "INCLUDE": {
+      "total": 143,
+      "top1": 123,
+      "top3": 135,
+      "top5": 140,
+      "emitted": 108,
+      "no_emission": 26
+    },
+    "ISLRTC_dictionary": {
+      "total": 13,
+      "top1": 0,
+      "top3": 0,
+      "top5": 0,
+      "emitted": 0,
+      "no_emission": 5
+    }
+  },
+  "totals": {
+    "total": 642,
+    "correct_top1": 145,
+    "correct_top3": 180,
+    "correct_top5": 203,
+    "emitted_match": 125,
+    "no_emission": 147
+  },
+  "in_vocabulary": {
+    "total": 387,
+    "correct_top1": 145,
+    "correct_top3": 180,
+    "correct_top5": 203
+  },
+  "out_of_vocabulary": {
+    "total": 255,
+    "correct_top1": 0,
+    "correct_top3": 0,
+    "correct_top5": 0
+  },
+  "per_word": {
+    "thank you": {
+      "correct": 17,
+      "total": 39,
+      "iv": true
+    },
+    "teacher": {
+      "correct": 3,
+      "total": 17,
+      "iv": true
+    },
+    "sorry": {
+      "correct": 0,
+      "total": 6,
+      "iv": false
+    },
+    "mother": {
+      "correct": 0,
+      "total": 18,
+      "iv": true
+    },
+    "stand": {
+      "correct": 0,
+      "total": 2,
+      "iv": false
+    },
+    "today": {
+      "correct": 10,
+      "total": 17,
+      "iv": true
+    },
+    "me": {
+      "correct": 0,
+      "total": 3,
+      "iv": false
+    },
+    "sit": {
+      "correct": 0,
+      "total": 19,
+      "iv": false
+    },
+    "home": {
+      "correct": 0,
+      "total": 1,
+      "iv": false
+    },
+    "what": {
+      "correct": 0,
+      "total": 17,
+      "iv": false
+    },
+    "water": {
+      "correct": 0,
+      "total": 18,
+      "iv": false
+    },
+    "drink": {
+      "correct": 0,
+      "total": 16,
+      "iv": false
+    },
+    "where": {
+      "correct": 0,
+      "total": 17,
+      "iv": false
+    },
+    "she": {
+      "correct": 2,
+      "total": 17,
+      "iv": true
+    },
+    "no": {
+      "correct": 0,
+      "total": 17,
+      "iv": false
+    },
+    "eat": {
+      "correct": 0,
+      "total": 18,
+      "iv": false
+    },
+    "read": {
+      "correct": 0,
+      "total": 3,
+      "iv": false
+    },
+    "help": {
+      "correct": 0,
+      "total": 16,
+      "iv": false
+    },
+    "okay": {
+      "correct": 20,
+      "total": 23,
+      "iv": true
+    },
+    "friend": {
+      "correct": 19,
+      "total": 38,
+      "iv": true
+    },
+    "stop": {
+      "correct": 0,
+      "total": 4,
+      "iv": false
+    },
+    "father": {
+      "correct": 0,
+      "total": 16,
+      "iv": true
+    },
+    "come": {
+      "correct": 0,
+      "total": 4,
+      "iv": false
+    },
+    "food": {
+      "correct": 0,
+      "total": 17,
+      "iv": false
+    },
+    "yes": {
+      "correct": 0,
+      "total": 17,
+      "iv": false
+    },
+    "goodbye": {
+      "correct": 0,
+      "total": 3,
+      "iv": false
+    },
+    "school": {
+      "correct": 20,
+      "total": 37,
+      "iv": true
+    },
+    "go": {
+      "correct": 0,
+      "total": 17,
+      "iv": false
+    },
+    "you": {
+      "correct": 3,
+      "total": 18,
+      "iv": true
+    },
+    "write": {
+      "correct": 0,
+      "total": 3,
+      "iv": false
+    },
+    "he": {
+      "correct": 0,
+      "total": 17,
+      "iv": true
+    },
+    "sister": {
+      "correct": 0,
+      "total": 17,
+      "iv": true
+    },
+    "brother": {
+      "correct": 0,
+      "total": 3,
+      "iv": true
+    },
+    "tea": {
+      "correct": 0,
+      "total": 17,
+      "iv": false
+    },
+    "student": {
+      "correct": 0,
+      "total": 17,
+      "iv": true
+    },
+    "hospital": {
+      "correct": 20,
+      "total": 21,
+      "iv": true
+    },
+    "please": {
+      "correct": 0,
+      "total": 18,
+      "iv": false
+    },
+    "when": {
+      "correct": 0,
+      "total": 2,
+      "iv": false
+    },
+    "market": {
+      "correct": 14,
+      "total": 36,
+      "iv": true
+    },
+    "hello": {
+      "correct": 17,
+      "total": 36,
+      "iv": true
+    }
+  }
+}

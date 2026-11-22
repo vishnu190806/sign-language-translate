@@ -1,0 +1,5 @@
+# Optional dependencies for dataset download and conversion
+# Used by: scripts/download_isl500.py, scripts/convert_isl500.py, evaluation
+h5py>=3.0
+huggingface_hub>=0.20
+scikit-learn>=1.3.0

@@ -1,0 +1,60 @@
+dataset:
+  name: isl
+  root: data/raw
+  processed: data/processed
+  num_workers: 6
+  prefetch_factor: 2
+  persistent_workers: true
+
+model:
+  name: htma
+  input_dim: 168
+  embedding_dim: 256
+  htma_blocks: 2
+  num_heads: 8
+  dropout: 0.1
+  num_classes: 263
+  fusion_method: early
+  use_separate_encoders: false
+  max_seq_len: 128
+
+processing:
+  sequence_length: 32
+  stability_gate:
+    threshold: 0.50
+    consecutive_frames: 12
+    cooldown_frames: 30
+    agreement_ratio: 0.60
+    min_confidence_delta: 0.08
+
+tts:
+  engine: kokoro
+  voice: af_heart
+  sample_rate: 22050
+  length_scale: 1.0
+  sentence_silence: 0.0
+  voice_dir: assets/voices/en/en_US/lessac/medium
+  device: null
+  max_queue_size: 1
+
+paths:
+  assets: assets
+  checkpoints: models
+  logs: logs
+  data_root: data
+  raw: data/raw
+  processed: data/processed
+
+train:
+  batch_size: 256
+  epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.01
+  label_smoothing: 0.1
+  early_stopping_patience: 10
+  use_amp: true
+  seed: 42
+
+augmentation:
+  mode: none
+  probs:

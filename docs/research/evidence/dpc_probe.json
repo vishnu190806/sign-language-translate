@@ -1,0 +1,30 @@
+[
+  {
+    "step": "scratch",
+    "val_top1": 16.54
+  },
+  {
+    "step": "encoder_step10000",
+    "val_top1": 27.07
+  },
+  {
+    "step": "encoder_step2000",
+    "val_top1": 19.05
+  },
+  {
+    "step": "encoder_step20000",
+    "val_top1": 29.57
+  },
+  {
+    "step": "encoder_step30000",
+    "val_top1": 32.33
+  },
+  {
+    "step": "encoder_step40000",
+    "val_top1": 28.07
+  },
+  {
+    "step": "encoder_step50000",
+    "val_top1": 28.32
+  }
+]
