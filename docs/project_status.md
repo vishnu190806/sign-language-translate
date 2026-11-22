@@ -266,3 +266,4 @@ Based on research findings (SAME, DSTAdapter, SIGNET, EnsAug, KD-MSLRT), here ar
 - Fixed all launchers/docs to use `.venv` and to select `--checkpoint models/baseline.pt` explicitly; `run_live_demo.bat` no longer references the author's old `venv/`.
 - Security scan of publishable text: no `.env`, no credential patterns, no author absolute paths remaining.
 - All 26 curated JSON files and 1 JSONL parsed cleanly; 3 screenshots present. Original `results/` (1,433 files / 115.21 MB) untouched.
+- Clean-clone run 1 exposed a real defect: `scripts/setup_runtime.ps1` resolved `$ProjectDir` to `scripts/` instead of the repository root, so the venv and requirements lookup were misplaced. Fixed by deriving the root from `$PSScriptRoot`; fix committed and pushed, then verification restarted from a fresh clone.

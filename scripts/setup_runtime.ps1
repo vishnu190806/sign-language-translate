@@ -6,7 +6,8 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
-$ProjectDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+$ScriptDir = if ($PSScriptRoot) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+$ProjectDir = Split-Path -Parent $ScriptDir
 Set-Location $ProjectDir
 
 function Write-Step([string]$Message) {
