@@ -46,7 +46,7 @@ Method: 3 parallel audit agents (demo path, training/eval, scripts/TTS/text) + f
 
 ## Independent clean-clone verification (2026-11-22)
 
-Fresh private-repo clone (final HEAD `fd38c2d`), independent Python 3.12 `.venv`, `setup_runtime.ps1 -WithTTS`,
+Fresh private-repo clone of the published `main` branch, independent Python 3.12 `.venv`, `setup_runtime.ps1 -WithTTS`,
 verified MediaPipe SHA-256 hashes, bundled checkpoint load (264 classes / 65 tensors), model inference
 `(1, 264)`, MediaPipe HandLandmarker + PoseLandmarker initialization, and Kokoro synthesis
 (40,800 samples at 24 kHz) all PASS.
