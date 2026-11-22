@@ -1,6 +1,14 @@
 from __future__ import annotations
 
+from importlib.util import find_spec
+
 import numpy as np
+import pytest
+
+pytestmark = pytest.mark.skipif(
+    find_spec("h5py") is None,
+    reason="Requires h5py from requirements-datasets.txt (optional dataset dependency)",
+)
 
 
 def test_bridge_hands_and_pose():

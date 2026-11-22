@@ -77,7 +77,7 @@ class ISLDataset(SignLanguageDataset):
 
         video_paths = include50['video_path'].tolist()
         logger.info(f"Downloading {len(video_paths)} videos...")
-        
+
         stats = {"downloaded": 0, "failed": 0}
         with ThreadPoolExecutor(max_workers=4) as executor:
             futures = {executor.submit(download_video, vp): vp for vp in video_paths}

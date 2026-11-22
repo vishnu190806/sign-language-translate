@@ -3,6 +3,7 @@ from pathlib import Path
 
 import numpy as np
 import torch
+import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
@@ -12,6 +13,11 @@ from src.features.spec import DEFAULT_FEATURE_SPEC
 
 NPZ_DIR = Path(__file__).resolve().parent.parent / "data" / "processed" / "landmarks" / "isl"
 LABEL_MAP_PATH = Path(__file__).resolve().parent.parent / "data" / "processed" / "landmarks" / "isl_label_map.json"
+
+pytestmark = pytest.mark.skipif(
+    not (NPZ_DIR.exists() and LABEL_MAP_PATH.exists()),
+    reason="Requires excluded processed landmark dataset (data/processed/landmarks/isl)",
+)
 
 
 def _load_label_map():

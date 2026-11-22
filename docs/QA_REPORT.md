@@ -43,3 +43,20 @@ Method: 3 parallel audit agents (demo path, training/eval, scripts/TTS/text) + f
 - ONNX migration: launch-bound at this model size (research report).
 - Continual/lifelong TTA without reset: collapse risk (EATA/SAR evidence); episodic only.
 - ISL-CSLTR test sentences with unique glosses: 12-sentence covered set chosen instead (sentence-disjoint preserved).
+
+## Independent clean-clone verification (2026-11-22)
+
+Fresh private-repo clone (HEAD `00cc2d7`), independent Python 3.12 `.venv`, `setup_runtime.ps1 -WithTTS`,
+verified MediaPipe SHA-256 hashes, bundled checkpoint load (264 classes / 65 tensors), model inference
+`(1, 264)`, MediaPipe HandLandmarker + PoseLandmarker initialization, and Kokoro synthesis
+(55,200 samples at 24 kHz) all PASS.
+
+`pytest tests/ -v` on that clean clone: **291 passed, 15 skipped, 0 failed** after making dataset-dependent
+tests skip explicitly when their excluded resources are absent. The skipped tests are:
+
+- `tests/test_ctc_unfreeze.py` (3) — requires excluded `models/multihead/best.pt`.
+- `tests/test_dataset.py` (10) — requires excluded processed landmarks and `isl_label_map.json`.
+- `tests/test_openhands_bridge.py` (2) — requires optional `h5py` from `requirements-datasets.txt`.
+
+They still run in the author's full research environment; no test assertion was weakened. Live webcam
+acceptance is a separate, hardware-dependent check and is not covered by this result.

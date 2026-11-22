@@ -1,5 +1,15 @@
 from __future__ import annotations
 
+from pathlib import Path
+
+import pytest
+
+_CHECKPOINT = Path(__file__).resolve().parent.parent / "models" / "multihead" / "best.pt"
+pytestmark = pytest.mark.skipif(
+    not _CHECKPOINT.exists(),
+    reason="Requires excluded models/multihead/best.pt (not published in the release)",
+)
+
 
 def test_ctc_frozen_by_default():
     from src.models.ctc_head import HTMACTCModel
