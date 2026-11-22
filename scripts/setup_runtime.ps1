@@ -121,7 +121,7 @@ else {
 
 Write-Host "`nSetup complete." -ForegroundColor Green
 Write-Host 'Smoke test (no TTS):'
-Write-Host '  .\.venv\Scripts\python.exe scripts\demo.py --config configs\default.yaml --override configs\isl.yaml --no-tts'
+Write-Host '  .\.venv\Scripts\python.exe scripts\demo.py --config configs\default.yaml --override configs\isl.yaml --checkpoint models\baseline.pt --no-tts'
 Write-Host 'With speech (after -WithTTS):'
-Write-Host '  .\.venv\Scripts\python.exe scripts\demo.py --config configs\default.yaml --override configs\isl.yaml'
+Write-Host '  .\.venv\Scripts\python.exe scripts\demo.py --config configs\default.yaml --override configs\isl.yaml --checkpoint models\baseline.pt'
 Write-Host 'Research evidence: docs/research/README.md'

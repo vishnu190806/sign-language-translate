@@ -9,7 +9,7 @@ env/
 *.egg-info/
 dist/
 build/
-data/
+/data/
 models/qwen15b/
 models/**/*.pt
 models/**/*.pth
@@ -37,10 +37,10 @@ models/multihead_extra/extra_overlap.json
 models/v2/
 
 # results/ is excluded; a curated copy lives in docs/research/ (tracked).
-results/
-isl_40_test/
+/results/
+/isl_40_test/
 .pytest_cache/
-logs/
+/logs/
 
 # Third-party model binaries — redistribution rights not established from source.
 # Download at setup (see README / docs/MODEL_AND_DATA_AVAILABILITY.md).
